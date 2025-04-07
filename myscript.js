@@ -33,7 +33,7 @@ async function getWeather(city) {
         } else if (data.weather[0].main == "Mist") {
             weatherIcon.src = "images/mist.png";
         }
-        document.querySelector(".weather").style.display = "block";
+        document.querySelector(".weather").style.display = "flex";
         document.querySelector(".error").style.display = "none";
      
 }
