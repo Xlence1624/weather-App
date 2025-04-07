@@ -134,9 +134,9 @@ justify-content: center;
 }
 @media (max-width: 400px) {
     .search{
-   
     flex-direction: column;
     gap: 10px;
+         width: 70%;
         
     }
 
